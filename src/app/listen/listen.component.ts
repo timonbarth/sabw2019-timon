@@ -16,7 +16,11 @@ export class ListenComponent implements OnInit {
   }
 
   zaehle() {
+    this.list = [];
 
+    for(let i = 0; i <= this.ende; i++){
+      this.list.push(i);
+    }
   }
 
 }
