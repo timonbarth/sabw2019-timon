@@ -8,7 +8,13 @@
         <button class="btn btn-success" 
           (click)="zaehle()">los!</button>
       </form>
-      {{(list)}}
+     
+
+     <ul *ngFor="let zahl of list">
+       <li>{{zahl00}}</li>
+     </ul>
+     
+
     </div>
   </div>
 </div>
