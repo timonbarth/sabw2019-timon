@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListenComponent implements OnInit {
 
+  ende: number = 10;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  zaehle() {
+
   }
 
 }

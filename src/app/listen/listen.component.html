@@ -1,7 +1,13 @@
-
-<div class="input-group mb-3">
-  <input type="text" class="form-control" placeholder="Zahl" aria-label="Zahl" aria-describedby="button-addon2">
-  <div class="input-group-append">
-    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Start!</button>
+<div class="container">
+	<div class="row">
+		<div class="col-12">
+			<h2>Listenansicht</h2>
+			<form>
+				Zähle von 0 bis <input type="number" name="ende" 
+                   [(ngModel)]="ende" class="form-control" />
+        <button class="btn btn-success" 
+          (click)="zaehle()">los!</button>
+      </form>
+    </div>
   </div>
 </div>
