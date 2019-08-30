@@ -8,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class RechnerRotationComponent implements OnInit {
 
   constructor() { }
-  
+  ergebnis = 'noch nix'
   rechne() {
-   
+  
   }
   ngOnInit() {
   }
