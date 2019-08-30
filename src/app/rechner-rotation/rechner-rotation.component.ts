@@ -10,7 +10,7 @@ export class RechnerRotationComponent implements OnInit {
   constructor() { }
   ergebnis = 'noch nix'
   rechne() {
-  
+    this.ergebnis = 
   }
   ngOnInit() {
   }
