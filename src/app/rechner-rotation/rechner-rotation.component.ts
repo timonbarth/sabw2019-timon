@@ -8,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class RechnerRotationComponent implements OnInit {
 
   constructor() { }
-  ergebnis = 'noch nix'
+  ergebnis = 'noch nix';
+  zahl1 = 10;
+  zahl2 = 20;
+
   rechne() {
-    this.ergebnis = 
+    let summe = this.zahl1+this.zahl2;
+    this.ergebnis = summe.toString();
   }
   ngOnInit() {
   }
