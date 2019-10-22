@@ -8,10 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class ModuloComponent implements OnInit {
 
   constructor() { }
-ergebnis = 'noch nix';
+  ergebnis = 'noch nix';
   zahl1 = 10;
   zahl2 = 20;
   zwischenergebnis = 0;
+  
   ngOnInit() {
   }
 rechne() {
