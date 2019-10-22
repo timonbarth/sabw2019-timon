@@ -1,4 +1,20 @@
-<button (click)="rechne()">los!</button>
 {{ergebnis}}
 {{zwischenergebnis}}
 {{zahl2}}
+<div id= "container" class="container">
+	<div class="row">
+		<div class="col-12">
+			<h2>Rechner-Demo</h2>
+			<form>
+				Zahl 1: <input type="number" name="zahl1" 
+                   [(ngModel)]="zahl1" class="form-control" />
+        Zahl 2: <input type="number" name="zahl2" 
+                   [(ngModel)]="zahl2" class="form-control" />
+        <button class="btn btn-success" 
+          (click)="rechne()">los!</button> <br />
+        Ergebnis = {{ergebnis}}
+      </form>
+
+    </div>
+  </div>
+</div>
