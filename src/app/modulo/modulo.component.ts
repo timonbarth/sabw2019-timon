@@ -11,10 +11,13 @@ export class ModuloComponent implements OnInit {
 ergebnis = 'noch nix';
   zahl1 = 10;
   zahl2 = 20;
+  zwischenergebnis = 0;
   ngOnInit() {
   }
 rechne() {
-    let summe = this.zahl1/this.zahl2;
-    this.ergebnis = summe.toString();
+    this.zwischenergebnis = this.zahl1/this.zahl2;
+    this.zwischenergebnis*this.zahl2 = this.zwischenergebnis
+    this.ergebnis = this.zwischenergebnis.toString();
+
   }
 }
