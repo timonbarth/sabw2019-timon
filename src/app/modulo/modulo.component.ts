@@ -11,5 +11,7 @@ export class ModuloComponent implements OnInit {
 
   ngOnInit() {
   }
-
+ rechne() {
+   
+ }
 }
